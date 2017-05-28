@@ -66,16 +66,16 @@
           <div class="col-12 col-sm-3">
             <b>About</b>
             <br />
-            <%= link_to 'Careers', '#' %>
+            <%= link_to 'Careers', careers_path %>
             <br />
             <%= link_to 'Privacy Policy', privacy_path %>
           </div>
           <div class="col-12 col-sm-3">
             <b>Contact</b>
             <br />
-            justin@flixter.com
+              <%= mail_to "justin@flixter.com" %>
             <br />
-            One Kendall Square
+            101 Main St.
             <br />
             Cambridge MA, 02133
           </div>
